@@ -1,0 +1,86 @@
+/* inicio do css subnavbar */
+.subnavbar {
+    width: 1572px;
+    height: 40px;
+    top: 117px;
+    left: 312px;
+    position: absolute;
+}
+
+.config {
+    position: absolute;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #717171;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 1855px;
+    right: 0.52%;
+    padding-left: 8px;
+    padding-top: -10px;
+    cursor: pointer;
+    margin-top: 4px;
+    border: 4px solid #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.cursos {
+    position: absolute;
+    margin-left: 28.75%;
+    right: 81.80%;
+    color: #000;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 21px;
+    cursor: pointer;
+
+
+}
+
+.chevron-right {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 27.30%;
+    right: 85.40%;
+}
+
+.home2 {
+    position: absolute;
+    margin-left: 26.2%;
+    right: 87.20%;
+    top: 15px;
+    cursor: pointer;
+    bottom: 92.65%;
+
+}
+.Zbn {
+    width: 1px;
+    height: 32px;
+    top: 15px;
+    position: absolute;
+    border-left: 1px solid #979797;
+    margin-left: 25.2%;
+    right: 89%;
+    bottom: 92.19%;
+}
+
+.rst {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    margin-top: 16px;
+}
+/* fim do css subnavbar */

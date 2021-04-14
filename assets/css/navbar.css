@@ -1,0 +1,115 @@
+/* inicio do css navbar com bootstrap */
+.navebar {
+    width: 1570px;
+    height: 62px;
+    position: absolute;
+    left: 16.35%;
+    right: 1.88%;
+    top: 1.53%;
+    bottom: 95.31%;
+    display: flex;
+}
+
+.navtop {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 1570px;
+    height: 62px;
+    top: 30px;
+
+}
+
+.user {
+    position: absolute;
+    margin-left: 96.40%;
+    top: 8%;
+    display: flex;
+   
+}
+
+.cliente {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    margin-left: 91.80%;
+    top: 20%;
+    display: flex;
+    color: #2c2c2c;
+}
+
+.vip {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    position: absolute;
+    height: 13px;
+    margin-left: 92.50%;
+    top: 50%;
+    color: #2c2c2c;
+}
+
+.lupa {
+    position: absolute;
+    margin-left: 89.67%;
+    top:20%;
+    height: 4.35px;
+    width: 4.35px;
+    bottom: 96.43%;
+    cursor: pointer;
+}
+.sino {
+    position: absolute;
+    margin-left: 87%;
+    top: 23%;
+    cursor: pointer;
+}
+
+.star {
+    position: absolute;
+    margin-left: 19%;
+    right: 87.50%;
+    top: 29%;
+    cursor: pointer;
+}
+
+.calendar {
+    position: absolute;
+    margin-left: 23.91%;
+    right: 90.20%;
+    top: 26%;
+    bottom: 96.90%;
+    cursor: pointer;
+}
+
+.email {
+    position: absolute;
+    margin-left: 21.72%;
+    right: 92.60%;
+    top: 29%;
+    bottom: 96.84%;
+    cursor: pointer;
+}
+.msg {
+    position: absolute;
+    margin-left: 23.50%;
+    right: 95%;
+    top: 29%;
+    bottom: 96.43%;
+    cursor: pointer;
+}
+
+.check {
+    position: absolute;
+    margin-left: 22.80%;
+    right: 97.50%;
+    top: 29%;
+    bottom: 96.43%;
+    cursor: pointer;
+}
+
+/* fim do css do navbar */

@@ -1,0 +1,143 @@
+/* inicio do menu lateral */
+.container {
+    width: 280px;
+    height: 1960px;
+    position: absolute;
+    left: 0%;
+    right: 85.42%;
+    bottom: 0%;
+}
+
+.menu-lateral {
+    background: #ffffff;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.178509);
+    width: 280px;
+    height: 2220px;
+    
+}
+
+.logo {
+    width: 158px;
+    height: 51.1px;
+    left: 44px;
+    top: 29px;
+    position: absolute;
+}
+
+.logo p {
+    position: absolute;
+    width: 100.85px;
+    height: 28.84px;
+    left: 60px;
+    top: 15px;
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FF7B1B;
+
+}
+
+.logo2 {
+    width: 51.1px;
+    height: 51.1px;
+    top: 29px;
+    left: 44px;
+    background: #FF7B1B;
+    border-radius: 50%;
+
+}
+
+.logo img {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.dsb {
+    width: 236px;
+    height: 36px;
+    top: 106px;
+    position: absolute;
+    border-radius: 6px;
+    background: #ECECEC;
+    left:1%
+
+
+}
+
+.dsb select {
+    position: absolute;
+    left: 15%;
+    top: 1px;
+    background: #ECECEC;
+    font-family: "Montserrat";
+    width: 80%;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    color: #2c2c2c;
+    border-radius: 4px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+.chevron-down {
+    position: absolute;
+    top: -5%;
+    right: 5%;
+    height: 100%;
+    width: 1.5rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    pointer-events: none;
+    cursor: pointer;
+    
+}
+.home {
+    margin-top: 114px;
+    margin-left: 35px;
+    position: relative;
+   }
+   
+
+.Apps {
+    width: 112px;
+    height: 194.91px;
+    top: 220,09px;
+    left: 37px;
+    position: absolute;
+    bottom: 78.83%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.apps2 p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    line-height: 36px;
+    color: #999999;
+}
+
+.apps2 svg {
+    margin-right: 0.80rem;
+    cursor: pointer;
+    margin-top: -0.3rem;
+}
+
+.apps2 span {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 40px;
+    cursor:pointer ;
+}
+
+/* fim do css do menu lateral  */

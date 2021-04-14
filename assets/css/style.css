@@ -1,0 +1,712 @@
+input, select,button {
+    outline: 0;
+    border: none;
+    text-transform: none;
+    word-wrap: normal;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+.body {
+position: relative;
+width: 1920px;
+height: 1960px;
+
+background: #F9F9F9;
+}
+
+
+.container-tb {
+  width: 1643px;
+  height: 1960px;
+
+}
+/* inicio do css search */
+.busca {
+  width: 1170px;
+  height: 62px;
+  top: 140px;
+  margin-left: 25rem;
+  position: absolute;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+
+}
+
+.busca input {
+  font-family: "Montserrat";
+  font-weight: 300;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 25px;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  width: 97%;
+  color: #999999;
+}
+
+.busca svg {
+  position: absolute;
+  margin-left: 95%;
+  top: 20px;
+}
+/* fim do css search */
+
+/* inicio do css card */
+
+.article {
+  width: 1170px;
+  height: 250px;
+  top: 240px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  position: absolute;
+  margin-left: 25rem;
+}
+.article1 {
+  width: 1170px;
+  height: 250px;
+  top: 530px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  position: absolute;
+  margin-left: 25rem;
+}
+.article2 {
+  width: 1170px;
+  height: 250px;
+  top: 940px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  position: absolute;
+  margin-left: 25rem;
+  right: 2%;
+}
+.article3 {
+  width: 1170px;
+  height: 250px;
+  top: 1230px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  position: absolute;
+  margin-left: 25rem;
+  right: 2%;
+}
+.article4 {
+  width: 1170px;
+  height: 250px;
+  top: 1520px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  position: absolute;
+  margin-left: 25rem;
+  right: 2%;
+}
+
+.img-article {
+  position: absolute;
+  left: 10px;
+  top: 23px
+}
+
+.nota {
+  width: 60px;
+  height: 30px;
+  background: #787878;
+  position: absolute;
+  border-radius: 3px;
+  margin-left: 97.96%;
+  right: 0.92%;
+  top: 7.86%;
+  bottom: 88.41%;
+  align-items: center;
+  gap: 0.522rem;
+  cursor: pointer;
+
+}
+
+.nota span {
+  position: absolute;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 17px;
+  font-size: 14px;
+  top: 7px;
+  margin-left: 15px;
+}
+
+.nota svg {
+  position: absolute;
+  margin-left: 37px;
+  top: 7px;
+  border: 2px #ffffff;
+}
+
+.separador {
+  width: 1px;
+  height: 252px;
+  left: 79% ;
+  position: absolute;
+  border: 1px solid #dadada;
+}
+
+.preco{
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #2c2c2c;
+  position: absolute;
+  left: 89%;
+  top: 30%;
+  font-style: normal;
+}
+
+.paragrafo {
+  width: 630px;
+  height: 93px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #2c2c2c;
+  position: absolute;
+  margin-top: 100px;
+  left: 21.40%;
+
+}
+
+.athor {
+  width: 99px;
+  height: 14px;
+
+}
+
+.athor p {
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #787878;
+  position:absolute;
+  left: 21%;
+  top: 26%;
+}
+
+.athor p span {
+  font-weight: 700;
+}
+
+.titulo {
+  position: absolute;
+  left: 21%;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #2c2c2c;
+  top: 10%;
+
+}
+
+.bnt-comprar {
+   width: 185px;
+   height: 45px;
+   position: absolute;
+   left: 82%;
+   top: 75%
+
+}
+.bnt-amei {
+   width: 185px;
+   height: 45px;
+   position: absolute;
+   left: 82%;
+   top: 50%
+
+}
+
+.bnt-comprar  button {
+  width: 185px;
+  height: 45px;
+  background: #686868;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 8px;
+
+}
+.bnt-amei  button {
+  width: 185px;
+  height: 45px;
+  background: #EDEDED;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 8px;
+
+}
+
+.bnt-comprar span {
+  padding-left: 6px;
+  padding-top: 2px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+}
+.bnt-amei span {
+  padding-left: 6px;
+  padding-top: 2px;
+  font-family: "Montserrat";
+  color: #2c2c2c;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+}
+
+/* fim do css card */
+
+/* inicio do sub menu laterla */
+.sub-menulateral {
+  width: 371px;
+  height: 1510px;
+  top: 13.20%;
+  background: #ffffff;
+  border-radius: 8px;
+  position: absolute;
+  left: 16%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+}
+
+.tb-preco {
+  width: 200px;
+  height: 207px;
+  top: 2%;
+  left: 10%;
+  position: absolute;
+
+}
+
+.tb-preco p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+
+.label > input {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+.tabela input:checked + span {
+  background: #969696;
+}
+.label > span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid rgb(150, 150, 150);
+  position: absolute;
+  margin-top: 50px;
+
+}
+
+.label {
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 1;
+  transform: translateY(-0.05em);
+}
+
+.tabela p{
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #2c2c2c;
+  position: absolute;
+  margin-left: 25px;
+  line-height: 32px;
+}
+/* separaodres css */
+.sp00 {
+  width: 325px;
+  height: 1px;
+  left: 6%;
+  position: absolute;
+  border: 1px solid #d6d6d6;
+  top: 20%;
+  opacity: 35%;
+}
+.sp002 {
+  width: 325px;
+  height: 1px;
+  left: 6%;
+  position: absolute;
+  border: 1px solid #d6d6d6;
+  top: 30%;
+  opacity: 35%;
+}
+.sp003 {
+  width: 325px;
+  height: 1px;
+  left: 6%;
+  position: absolute;
+  border: 1px solid #d6d6d6;
+  top:55%;
+  opacity: 35%;
+}
+/* separadores css */
+/* css do slid */
+.valores p {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  font-family: "Monteserrat";
+  font-size: 20px;
+  line-height: 24px;
+  color: #2c2c2c;
+  font-weight: 600;
+  font-style: normal;
+
+
+}
+
+.number {
+  position: absolute;
+  left: 68%;
+  top:22%;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.sp001 {
+  width: 317px;
+  height: 20px;
+  position: absolute;
+  left: 17.86%;
+  top: 25%;
+  bottom: 89.9%;
+  cursor: pointer;
+}
+
+.sl1 {
+  width: 20px;
+  height: 20px;
+  background: #606060;
+  position: absolute;
+  left: 10.86%;
+  right: 81.89%;
+  top: 27%;
+  bottom: 69.9%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sl2 {
+  width: 20px;
+  height: 20px;
+  background: #606060;
+  position: absolute;
+  left: 80.16%;
+  top: 27%;
+  bottom: 69.9%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sl3 {
+  width: 246px;
+  height: 6px;
+  position: absolute;
+  left: 15.33%;
+  right: 69.27%;
+  background: #606060;
+  top: 27.50%;
+  cursor: pointer;
+}
+
+.sl4 {
+  width: 308px;
+  height: 6px;
+  background: #EDEDED;
+  position: absolute;
+  left: 10.33%;
+  right: 61%;
+  top: 27.50%;
+  cursor: pointer;
+
+}
+/* css do slide */
+
+/* css categorias */
+.categorias {
+  width: 323px;
+  height: 178px;
+  position: absolute;
+  left: 10%;
+  top: 45.38%;
+  bottom: 45.56%;
+}
+.ct-content {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: -120px;
+  
+}
+.tc-text {
+margin-left: 28px;
+display: flex;
+justify-content: space-between;
+margin-top: -30px;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: 300;
+color: #2c2c2c;
+line-height: 32px;
+
+}
+.tc-text span {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.text-p  {
+  font-weight: 100;
+  display: flex;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  
+
+}
+.tc-text p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.ct-ch .ct-check {
+  content: "✓";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgb(101, 101, 101);
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.ct-ch .ct-check::after {
+  content: "✓";
+  align-items: center;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  position: absolute;
+  transform: translate(-50%, -50%) rotateZ(15deg);
+  font-size: 0.8rem;
+  color: #fff;
+
+
+  
+}
+
+.ct-ch input:checked ~.ct-check {
+  background: rgba(109, 109, 109, 0.946);
+
+}
+
+.ct001 {
+
+  position: absolute;
+  top: -110%;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 600;
+
+  
+}
+/* css categoria */
+
+/* inicio do css .avaliacao */
+.avaliacao {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 32px;
+  font-style: normal;
+  position: absolute;
+  top: 57%;
+  left: 12%;
+  font-weight: 600;
+  width: 323px;
+  height: 178px;
+
+}
+
+.va1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 88%;
+  top: 40%;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 300;
+  color: #2c2c2c;
+  cursor: pointer;
+
+}
+
+.stars {
+  position: absolute;
+  right: 550%;
+  cursor: pointer;
+}
+/* fim do css .avaliacao */
+
+
+/* css do botão limpar liltros */
+.bnt-filtros {
+  width: 279px;
+  height: 56px;
+  position: absolute;
+  left: 11%;
+  top: 74%;
+
+  background: #696969;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16516);
+  cursor: pointer;
+}
+
+.bnt-filtros p {
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  font-size: 18px;
+  color: #ffffff;
+}
+/* css do botão limpar botão filtro */
+
+
+/* inicio do css pagination */
+
+.menu-paginas {
+  display: flex;
+  position: absolute;
+  left: 45%;
+  top: 96%;
+}
+
+
+.box{
+height: auto;
+display: grid;
+grid-auto-flow: column;
+grid-gap: 10px;
+}
+.number{
+display: grid;
+grid-auto-flow: column;
+background: #EDEDED;
+border-radius: 50px;
+}
+.number li{
+display: list-item;
+font-size: 1.5em;
+padding: .4rem 1rem;
+transition: all .2s;
+cursor: pointer;
+}
+.box ul {
+ list-style: none;
+}
+.number li:hover{
+background: #2c2c2c;
+border-radius: 50%;
+color: #fff;
+}
+.box > a{
+background: #EDEDED;
+align-self: center;
+padding: 1rem 1rem;
+border-radius: 50%;
+}
+
+.number li {
+  text-transform: none;
+}
+
+.arrow-bnt {
+  position: absolute;
+  top: 96.05%;
+  left: 42.5%;
+  width: 40px;
+  height: 40px;
+  background: #EDEDED;
+  border-radius: 50%;
+  padding-left: 8px;
+  padding-top: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.arrow-bnt2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 96%;
+  right: 23.8%;
+  background: #EDEDED;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-top: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.arrow-bnt:hover, .arrow-bnt2:hover {
+background: #2c2c2c;
+border-radius: 50%;
+color: #fff;
+}
+/* fim do css pagination */

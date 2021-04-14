@@ -1,0 +1,102 @@
+/* innicio do css submenunavbar */
+.filtros {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    margin-left: 16.35%;
+    right: 96.40%;
+    top: 88px
+  }
+  
+  
+  .rest {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    margin-left:.29%;
+    right: 58.40%;
+    top: 88px;
+    bottom: 88.62%;
+  
+  }
+  .selista{
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 135px;
+    height: 40px;
+    position: absolute;
+    margin-left: 83.41%;
+    top: 80px;
+  }
+  .selista select {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    position: absolute;
+    margin-left: 70.41%;
+    
+    right: 10%;
+    top: 12px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .ch-down {
+    position: absolute;
+    margin-left: 90.40%;
+    top: 85px;
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    pointer-events: none;
+  
+  }
+  
+  .gridview {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    position: absolute;
+    margin-left: 93.40%;
+    top: 80px;
+    border-radius: 8px;
+  }
+  
+  .gridview svg {
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .lis {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    margin-left: 97%;
+    top: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+  
+  }
+  
+  .lis svg {
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  
+  /* fim do css do submenu navbar */
